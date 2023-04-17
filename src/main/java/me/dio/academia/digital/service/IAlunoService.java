@@ -26,7 +26,7 @@ public interface IAlunoService {
    * Retorna todos os Alunos que estão no banco de dados.
    * @return - Uma lista os Alunos que estão salvas no DB.
    */
-  List<Aluno> getAll();
+  List<Aluno> getAll(String dataDeNascimento);
 
   /**
    * Atualiza o Aluno.
@@ -42,6 +42,8 @@ public interface IAlunoService {
    * @param id - id do Aluno que será removido.
    */
   void delete(Long id);
+
+  List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id);
 }
 
 

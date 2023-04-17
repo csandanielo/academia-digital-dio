@@ -8,7 +8,8 @@ Conceitos abordados e praticados:
 - Desenvolvimento de API RESTful;
 - Modelagem de entidades;
 - Spring Framework;
-- Postgres.
+- Postgres (Banco de dados e consultas);
+- Postman.
 
 
 Entrega do projeto em 17/04/2023
